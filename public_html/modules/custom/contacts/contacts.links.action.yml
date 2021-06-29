@@ -1,0 +1,10 @@
+entity.contactss_entity.add_form:
+  route_name: entity.contactss_entity.add_page
+  title: 'Add Contactss entity'
+  appears_on:
+    - entity.contactss_entity.collection
+entity.contactss_entity_type.add_form:
+  route_name: entity.contactss_entity_type.add_form
+  title: 'Add Contactss entity type'
+  appears_on:
+    - entity.contactss_entity_type.collection

@@ -1,0 +1,17 @@
+
+# Contactss entity menu items definition
+entity.contactss_entity.collection:
+  title: 'Contactss entity list'
+  route_name: entity.contactss_entity.collection
+  description: 'List Contactss entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Contactss entity type menu items definition
+entity.contactss_entity_type.collection:
+  title: 'Contactss entity type'
+  route_name: entity.contactss_entity_type.collection
+  description: 'List Contactss entity type (bundles)'
+  parent: system.admin_structure
+  weight: 99

@@ -1,0 +1,33 @@
+add contactss entity entities:
+  title: 'Create new Contactss entity entities'
+
+administer contactss entity entities:
+  title: 'Administer Contactss entity entities'
+  description: 'Allow to access the administration form to configure Contactss entity entities.'
+  restrict access: true
+
+delete contactss entity entities:
+  title: 'Delete Contactss entity entities'
+
+edit contactss entity entities:
+  title: 'Edit Contactss entity entities'
+
+view published contactss entity entities:
+  title: 'View published Contactss entity entities'
+
+view unpublished contactss entity entities:
+  title: 'View unpublished Contactss entity entities'
+
+view all contactss entity revisions:
+  title: 'View all Contactss entity revisions'
+
+revert all contactss entity revisions:
+  title: 'Revert all Contactss entity revisions'
+  description: 'Role requires permission <em>view Contactss entity revisions</em> and <em>edit rights</em> for contactss entity entities in question or <em>administer contactss entity entities</em>.'
+
+delete all contactss entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Contactss entity revisions</em> and <em>delete rights</em> for contactss entity entities in question or <em>administer contactss entity entities</em>.'
+
+permission_callbacks:
+  - \Drupal\contacts\ContactssEntityPermissions::generatePermissions
